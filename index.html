@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+
+<style>
+	body {
+		background-color: white;
+		margin: 0px;
+	}
+
+	#header {
+		display: flex;
+		justify-content: flex-end;
+
+		text-align: center;
+
+		width: 100%;
+		height: 60px;
+	}
+
+	#content {
+	}
+
+	#footer {
+		width: 100%;
+		height: 50px;
+		background-color: #f2f2f2;
+		border-top-style: solid;
+		border-bottom-style: solid; 
+		border-color: #e4e4e4;
+		border-width: 1px;
+
+		position: absolute;
+		bottom: 0px;
+
+		color: #555;
+
+		line-height: 50px;
+
+	}
+
+	.headeritem {
+		margin-right: 10px;
+		font-size: 13px;
+		color: black;
+		line-height: 60px;
+	}
+
+	.headeritem:hover {
+		text-decoration: underline;
+	}
+
+	.no-outline {
+		outline: 0;
+		text-decoration: none;
+	}
+
+	#google-apps-icon {
+		width: 25px;
+		margin: 18px;
+		margin-left: 0px;
+		margin-right: 0px;
+		filter: brightness(500%);
+	}
+
+	#login {
+		width: 80px;
+		height: 30px;
+		margin: 15px;
+		margin-right: 20px;
+		border-radius: 2px;
+		background-color: #4386fa;
+		text-decoration: none;
+		color: white;
+		line-height: 30px;
+		}
+
+	#logo {
+		display: block;
+
+		margin: 0 auto;
+		margin-top: 140px;
+	}
+
+	#searchbar {
+		width: 600px;
+		height: 45px;
+		border-radius: 50px;
+		border-style: solid;
+		border-width: 1px;
+		border-color: #d0d0d0;
+
+		margin: 25px auto;
+		display: flex;
+	}
+
+	#searchbar:hover{
+		border-style: solid;
+		box-shadow: 0 0 4px #cccccc;
+
+
+	}
+
+	#search-icon {
+		display: block;
+
+		height: 20px;
+		margin: 12px;
+	}
+
+	input {
+		border-style: none;
+		width: 500px;
+	}
+
+	#keyboard-icon {
+		margin: 15px;
+		height: 13px;
+	}
+
+	#subsearch-buttons {
+		display: flex;
+		justify-content: center;
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.subsearch-button {
+		background-color: #f1f1f1;
+		height: 35px;
+		width: 110px;
+		margin: 10px;
+		border-radius: 4px;
+		font-size: 11px;
+		text-align: center;
+		line-height: 30px;
+		color: #555;
+		margin-top: 0px;
+		border-width: 1px;
+		border-color: #f1f1f1;
+		border-style: solid;
+	}
+
+	.subsearch-button:hover {
+		border-color: #aaa;
+		box-shadow: 0 0 2px #ddd;
+		color: #222;
+	}
+
+	.subsearch-button:active {
+		border-color: blue;
+	}
+
+	#subsearch-text {
+		text-align: center;
+		font-size: 12px;
+	}
+
+</style>
+
+<html>
+<head>
+	<title>Google</title>
+</head>
+<body>
+	<div id="header">
+		<a href="" class="headeritem no-outline">Gmail</a>
+		<a href="" class="headeritem no-outline">Billeder</a>
+		<a href="" class="no-outline"><img src="google-apps-icon.png" id="google-apps-icon"></a>
+		<a href="" class="no-outline"><div id="login">Log ind</div></a> 
+	</div>
+
+	<div id="content">
+	</div>
+		<img src="google-icon.png" id="logo">
+		<div id="searchbar">
+			<img src="google-search-icon.png" id="search-icon">
+			<input type="searchbar" name="searchbar">
+			<img src="google-keyboard-icon.png" id="keyboard-icon">
+		</div>
+		<div id="subsearch-buttons">
+			<a href="" class="no-outline"><div class="subsearch-button">Google-søgning</div></a>
+			<a href="" class="no-outline"><div class="subsearch-button">Jeg prøver lykken</div></a>
+		</div>
+		<p id="subsearch-text">Google er tilgængelig på: <a href="">Føroyskt</a></p>
+
+	<div id="footer">‎‎‎‎　　‎Danmark</div>
+</body>
+</html>
